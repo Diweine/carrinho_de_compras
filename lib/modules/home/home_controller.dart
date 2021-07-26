@@ -24,7 +24,7 @@ abstract class _HomeControllerBase with Store {
           50,
           (index) => ProductModel(
             name: "Produto $index ",
-            price: 1.0 * index,
+            price: 1.0 * (index + 1),
           ),
         ),
       );
